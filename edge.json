@@ -1,0 +1,95 @@
+{
+    "version": "1.0",
+    "apiConfig" :{
+        "ATHelloWorld" : {
+            "maskconfigs":[
+                {
+                    "jSONPathsFault": [
+                      "$.store.book[*].author"
+                    ],
+                    "jSONPathsRequest": [
+                      "$.store.book[*].author"
+                    ],
+                    "jSONPathsResponse": [
+                      "$.store.book[*].author"
+                    ],
+                    "name": "default",
+                    "variables": [
+                      "httpbin.username",
+                      "httpbin.password"
+                    ],
+                    "xPathsFault": [
+                      "/apigee:Greeting/apigee:User"
+                    ],
+                    "xPathsRequest": [
+                      "/apigee:Greeting/apigee:User"
+                    ],
+                    "xPathsResponse": [
+                      "/apigee:Greeting/apigee:User"
+                    ]
+                  }
+            ]
+        }
+    },
+    "envConfig": {
+        "test": {
+          "targetServers": [
+              {
+                "name" : "HTTPBin",
+                "host" : "httpbin.org",
+                "isEnabled" : true,
+                "port" : 80
+              }
+          ],
+          
+          "references": [
+            {
+              "name" : "sampleReference",
+              "refers": "freetrial",
+              "resourceType": "KeyStore"
+            }
+        ], 
+          "caches": [
+              {
+                "name": "echocache",
+                "description": "echo cache",
+                "expirySettings": {
+                    "timeoutInSec": {
+                        "value": "300"
+                    },
+                    "valuesNull": false
+                }
+              }            
+          ],
+          "resourcefiles":[
+              {
+                "name": "test",
+                "type": "jsc",
+                "file": "./resourceFiles/jsc/test.js"
+              },
+              {
+                "name": "commons-lang3.9",
+                "type": "jsc",
+                "file": "./resourceFiles/java/commons-lang3-3.9.jar"
+              }     
+          ],
+          "kvms":[
+              {
+                  "name" : "HTTPBin_Credentials",
+                  "entry" : [{
+                      "name" : "username",
+                      "value" : "johndoe"
+                  },
+                  {
+                      "name" : "password",
+                      "value": "strongPassword"
+                  }
+                ]
+              }
+          ]
+          
+           
+        }
+    }
+    
+}
