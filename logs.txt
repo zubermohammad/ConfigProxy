@@ -1,0 +1,566 @@
+Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T22:00:29+03:00)
+Maven home: /mnt/d/Softwares/apache-maven-3.6.1
+Java version: 1.8.0_222, vendor: Private Build, runtime: /usr/lib/jvm/java-8-openjdk-amd64/jre
+Default locale: en, platform encoding: UTF-8
+OS name: "linux", version: "4.4.0-18362-microsoft", arch: "amd64", family: "unix"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from /mnt/d/Softwares/apache-maven-3.6.1/conf/settings.xml
+[DEBUG] Reading user settings from /home/zuber/.m2/settings.xml
+[DEBUG] Reading global toolchains from /mnt/d/Softwares/apache-maven-3.6.1/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /home/zuber/.m2/toolchains.xml
+[DEBUG] Using local repository at /home/zuber/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /home/zuber/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project test.com:ATHelloWorld:pom:1.0: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project apigee.com:shared-pom:pom:1.2: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: test.com:ATHelloWorld:pom:1.0
+[DEBUG] Tasks:   [clean, package]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] -----------------------< test.com:ATHelloWorld >------------------------
+[INFO] Building ATHelloWorld 1.0
+[INFO] --------------------------------[ pom ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       test.com:ATHelloWorld:1.0
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): []
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.5:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.3:copy-resources (copy-resources-step)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <filters>${project.build.filters}</filters>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory>/mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy</outputDirectory>
+  <overwrite default-value="false">true</overwrite>
+  <project>${project}</project>
+  <resources>
+    <resource>
+      <directory>apiproxy</directory>
+    </resource>
+  </resources>
+  <session>${session}</session>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          io.apigee.build-tools.enterprise4g:apigee-edge-maven-plugin:1.1.7:configure (configure-bundle-step)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <apiType>${apigee.apitype}</apiType>
+  <apiVersion>${apigee.apiversion}</apiVersion>
+  <artifactId>${project.artifactId}</artifactId>
+  <authType default-value="basic">${apigee.authtype}</authType>
+  <baseDirectory>${basedir}</baseDirectory>
+  <bearer>${apigee.bearer}</bearer>
+  <buildDirectory>${project.build.directory}</buildDirectory>
+  <buildOption>${build.option}</buildOption>
+  <clientid>${apigee.clientid}</clientid>
+  <clientsecret>${apigee.clientsecret}</clientsecret>
+  <delay>${apigee.delay}</delay>
+  <deploymentEnv default-value="${apigee.profile}">${apigee.env}</deploymentEnv>
+  <hostURL>${apigee.hosturl}</hostURL>
+  <id>${apigee.profile}</id>
+  <mfaToken>${apigee.mfatoken}</mfaToken>
+  <options>${apigee.options}</options>
+  <orgName>${apigee.org}</orgName>
+  <overridedelay>${apigee.override.delay}</overridedelay>
+  <password>${apigee.password}</password>
+  <projectName>${project.name}</projectName>
+  <projectVersion>${project.version}</projectVersion>
+  <refresh>${apigee.refresh}</refresh>
+  <revision>${apigee.revision}</revision>
+  <skip default-value="false"/>
+  <tokenURL default-value="https://login.apigee.com/oauth/token">${apigee.tokenurl}</tokenURL>
+  <userName>${apigee.username}</userName>
+</configuration>
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ ATHelloWorld ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=2142500, ConflictMarker.markTime=1075100, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=1854100, ConflictIdSorter.topsortTime=1483200, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=10431900, ConflictResolver.conflictItemCount=3, DefaultDependencyCollector.collectTime=77453900, DefaultDependencyCollector.transformTime=24479400}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.5:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.5:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.5, parent: sun.misc.Launcher$AppClassLoader@1b6d3586]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.5:clean' with basic configurator -->
+[DEBUG]   (f) directory = /mnt/d/Work/apigee-cicd/ConfigProxy/target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = /mnt/d/Work/apigee-cicd/ConfigProxy/target/classes
+[DEBUG]   (f) reportDirectory = /mnt/d/Work/apigee-cicd/ConfigProxy/target/site
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = /mnt/d/Work/apigee-cicd/ConfigProxy/target/test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting /mnt/d/Work/apigee-cicd/ConfigProxy/target
+[INFO] Deleting file /mnt/d/Work/apigee-cicd/ConfigProxy/target/ATHelloWorld-1.0.zip
+[INFO] Deleting file /mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy/targets/httpbin.xml
+[INFO] Deleting directory /mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy/targets
+[INFO] Deleting file /mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy/proxies/default.xml
+[INFO] Deleting directory /mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy/proxies
+[INFO] Deleting file /mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy/policies/VerifyAPIKey.xml
+[INFO] Deleting file /mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy/policies/ResponseCache.xml
+[INFO] Deleting file /mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy/policies/KVM-GetHttpBinCredentials.xml
+[INFO] Deleting directory /mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy/policies
+[INFO] Deleting file /mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy/HelloWorld.xml
+[INFO] Deleting directory /mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy
+[INFO] Deleting directory /mnt/d/Work/apigee-cicd/ConfigProxy/target
+[DEBUG] Skipping non-existing directory /mnt/d/Work/apigee-cicd/ConfigProxy/target/classes
+[DEBUG] Skipping non-existing directory /mnt/d/Work/apigee-cicd/ConfigProxy/target/test-classes
+[DEBUG] Skipping non-existing directory /mnt/d/Work/apigee-cicd/ConfigProxy/target/site
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:copy-resources (copy-resources-step) @ ATHelloWorld ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=683800, ConflictMarker.markTime=466000, ConflictMarker.nodeCount=69, ConflictIdSorter.graphTime=516400, ConflictIdSorter.topsortTime=84400, ConflictIdSorter.conflictIdCount=25, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=4881300, ConflictResolver.conflictItemCount=66, DefaultDependencyCollector.collectTime=219821500, DefaultDependencyCollector.transformTime=6690800}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.3:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.5.6:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.0-beta-2:compile
+[DEBUG]       org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]             org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]          org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]          commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]          org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]          org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.6:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.3
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.3
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.3
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.3
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.6
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.0-beta-2
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.6
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.3:copy-resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.3, parent: sun.misc.Launcher$AppClassLoader@1b6d3586]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.3:copy-resources' with basic configurator -->
+[DEBUG]   (s) filters = []
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy
+[DEBUG]   (s) overwrite = true
+[DEBUG]   (f) project = MavenProject: test.com:ATHelloWorld:1.0 @ /mnt/d/Work/apigee-cicd/ConfigProxy/pom.xml
+[DEBUG]   (s) directory = apiproxy
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: apiproxy, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@35d6ca49
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Private Build, env.LESSOPEN=| /usr/bin/lesspipe %s, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.name=Linux, apigee.authtype=oauth, sun.boot.class.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes, env.PWD=/mnt/d/Work/apigee-cicd/ConfigProxy, apigee.mfatoken=${mfatoken}, env.LANG=C.UTF-8, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_222-8u222-b10-1ubuntu1~18.04.1-b10, user.name=zuber, env._=/mnt/d/Softwares/apache-maven-3.6.1/bin/mvn, maven.build.version=Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T22:00:29+03:00), env.USER=zuber, env.SHELL=/bin/bash, env.XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop, env.PATH=/home/zuber/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu18.04onWindows_1804.2019.522.0_x64__79rhkp1fndgsc:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Docker/Docker/Resources/bin:/mnt/c/Program Files (x86)/Python37-32/Scripts/:/mnt/c/Program Files (x86)/Python37-32/:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/zuber/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/zuber/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2018.3.4/bin:/mnt/d/Softwares/Katalon_Studio_Windows_64:/mnt/c/Program Files/Git:/mnt/c/Program Files/Java/jdk1.8.0_131/bin:/mnt/d/Softwares/apache-maven-3.6.1/bin:/snap/bin, user.language=en, apigee.config.file=/mnt/d/Work/apigee-cicd/ConfigProxy/./apiproxy/edgeConfig.json, sun.boot.library.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64, classworlds.conf=/mnt/d/Softwares/apache-maven-3.6.1/bin/m2.conf, env.HOSTTYPE=x86_64, java.version=1.8.0_222, user.timezone=, sun.arch.data.model=64, java.endorsed.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed, env.NAME=DESKTOP-BE34148, apigee.bearer=${bearer}, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, env.SHLVL=1, file.separator=/, java.specification.name=Java Platform API Specification, maven.conf=/mnt/d/Softwares/apache-maven-3.6.1/conf, java.class.version=52.0, apigee.profile=test, java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre, java.vm.info=mixed mode, env.LOGNAME=zuber, os.version=4.4.0-18362-Microsoft, env.WSLENV=, path.separator=:, java.vm.version=25.222-b10, apigee.password=${password}, java.awt.printerjob=sun.print.PSPrinterJob, env.TERM=xterm-256color, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.X11.XToolkit, apigee.hosturl=https://api.enterprise.apigee.com, user.home=/home/zuber, apigee.clientid=${clientId}, env.OLDPWD=/mnt/d/Work/apigee-cicd/ConfigProxy, java.specification.vendor=Oracle Corporation, library.jansi.path=/mnt/d/Softwares/apache-maven-3.6.1/lib/jansi-native, java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib, java.vendor.url=http://java.oracle.com/, env.MAVEN_CMD_LINE_ARGS= clean package -Ptest -X, java.vm.vendor=Private Build, apigee.env=${env}, maven.home=/mnt/d/Softwares/apache-maven-3.6.1, apigee.username=${username}, java.runtime.name=OpenJDK Runtime Environment, java.class.path=/mnt/d/Softwares/apache-maven-3.6.1/boot/plexus-classworlds-2.6.0.jar, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean package -Ptest -X, maven.version=3.6.1, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.os.patch.level=unknown, sun.cpu.endian=little, env.HOME=/home/zuber, java.io.tmpdir=/tmp, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:, maven.multiModuleProjectDirectory=/mnt/d/Work/apigee-cicd/ConfigProxy, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, apigee.tokenurl=https://login.apigee.com/oauth/token, apigee.org=${org}, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, os.arch=amd64, java.ext.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext, user.dir=/mnt/d/Work/apigee-cicd/ConfigProxy, line.separator=
+, java.vm.name=OpenJDK 64-Bit Server VM, apigee.apiversion=v1, file.encoding=UTF-8, apigee.clientsecret=${clientSecret}, apigee.refresh=${refresh}, java.specification.version=1.8, env.WSL_DISTRO_NAME=Ubuntu-18.04, env.MAVEN_PROJECTBASEDIR=/mnt/d/Work/apigee-cicd/ConfigProxy, env.LESSCLOSE=/usr/bin/lesspipe %s %s}
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory apiproxy
+excludes []
+includes []
+[INFO] Copying 6 resources
+[DEBUG] file HelloWorld.xml has a filtered file extension
+[DEBUG] copy /mnt/d/Work/apigee-cicd/ConfigProxy/apiproxy/HelloWorld.xml to /mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy/HelloWorld.xml
+[DEBUG] file KVM-GetHttpBinCredentials.xml has a filtered file extension
+[DEBUG] copy /mnt/d/Work/apigee-cicd/ConfigProxy/apiproxy/policies/KVM-GetHttpBinCredentials.xml to /mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy/policies/KVM-GetHttpBinCredentials.xml
+[DEBUG] file ResponseCache.xml has a filtered file extension
+[DEBUG] copy /mnt/d/Work/apigee-cicd/ConfigProxy/apiproxy/policies/ResponseCache.xml to /mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy/policies/ResponseCache.xml
+[DEBUG] file VerifyAPIKey.xml has a filtered file extension
+[DEBUG] copy /mnt/d/Work/apigee-cicd/ConfigProxy/apiproxy/policies/VerifyAPIKey.xml to /mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy/policies/VerifyAPIKey.xml
+[DEBUG] file default.xml has a filtered file extension
+[DEBUG] copy /mnt/d/Work/apigee-cicd/ConfigProxy/apiproxy/proxies/default.xml to /mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy/proxies/default.xml
+[DEBUG] file httpbin.xml has a filtered file extension
+[DEBUG] copy /mnt/d/Work/apigee-cicd/ConfigProxy/apiproxy/targets/httpbin.xml to /mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy/targets/httpbin.xml
+[INFO] 
+[INFO] --- apigee-edge-maven-plugin:1.1.7:configure (configure-bundle-step) @ ATHelloWorld ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=2215900, ConflictMarker.markTime=1187900, ConflictMarker.nodeCount=306, ConflictIdSorter.graphTime=1102900, ConflictIdSorter.topsortTime=444700, ConflictIdSorter.conflictIdCount=80, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=12644400, ConflictResolver.conflictItemCount=169, DefaultDependencyCollector.collectTime=757684300, DefaultDependencyCollector.transformTime=17766000}
+[DEBUG] io.apigee.build-tools.enterprise4g:apigee-edge-maven-plugin:jar:1.1.7:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0:compile
+[DEBUG]    com.google.http-client:google-http-client:jar:1.10.3-beta:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:1.3.9:compile
+[DEBUG]       org.apache.httpcomponents:httpclient:jar:4.0.3:compile
+[DEBUG]          org.apache.httpcomponents:httpcore:jar:4.0.1:compile
+[DEBUG]       org.codehaus.jackson:jackson-core-asl:jar:1.9.4:compile
+[DEBUG]       xpp3:xpp3:jar:1.1.4c:compile
+[DEBUG]       com.google.protobuf:protobuf-java:jar:2.2.0:compile
+[DEBUG]    org.slf4j:slf4j-log4j12:jar:1.6.6:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.6.6:compile
+[DEBUG]       log4j:log4j:jar:1.2.17:compile
+[DEBUG]    org.apache.commons:commons-lang3:jar:3.1:compile
+[DEBUG]    com.google.guava:guava:jar:12.0:compile
+[DEBUG]    com.google.code.gson:gson:jar:2.2.2:compile
+[DEBUG]    xalan:xalan:jar:2.7.1:compile
+[DEBUG]       xalan:serializer:jar:2.7.1:compile
+[DEBUG]          xml-apis:xml-apis:jar:1.3.04:compile
+[DEBUG]    org.eclipse.jgit:org.eclipse.jgit:jar:3.3.2.201404171909-r:compile
+[DEBUG]       com.jcraft:jsch:jar:0.1.50:compile
+[DEBUG]       com.googlecode.javaewah:JavaEWAH:jar:0.7.9:compile
+[DEBUG]    org.apache.axis2:axis2-kernel:jar:1.3:compile
+[DEBUG]       javax.servlet:servlet-api:jar:2.3:compile
+[DEBUG]       commons-httpclient:commons-httpclient:jar:3.0.1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]       commons-fileupload:commons-fileupload:jar:1.1.1:compile
+[DEBUG]       wsdl4j:wsdl4j:jar:1.6.2:compile
+[DEBUG]       backport-util-concurrent:backport-util-concurrent:jar:2.2:compile
+[DEBUG]       org.codehaus.woodstox:wstx-asl:jar:3.2.1:compile
+[DEBUG]          stax:stax-api:jar:1.0.1:compile
+[DEBUG]       org.apache.ws.commons.schema:XmlSchema:jar:1.3.2:compile
+[DEBUG]       org.apache.neethi:neethi:jar:2.0.2:compile
+[DEBUG]       annogen:annogen:jar:0.1.0:compile
+[DEBUG]       org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1:compile
+[DEBUG]       commons-logging:commons-logging:jar:1.1:compile
+[DEBUG]          logkit:logkit:jar:1.0.1:compile
+[DEBUG]          avalon-framework:avalon-framework:jar:4.1.3:compile
+[DEBUG]       org.apache.ws.commons.axiom:axiom-api:jar:1.2.5:compile
+[DEBUG]          jaxen:jaxen:jar:1.1-beta-9:compile
+[DEBUG]       org.apache.ws.commons.axiom:axiom-impl:jar:1.2.5:compile
+[DEBUG]       org.apache.ws.commons.axiom:axiom-dom:jar:1.2.5:compile
+[DEBUG]       javax.mail:mail:jar:1.4:compile
+[DEBUG]          javax.activation:activation:jar:1.1:compile
+[DEBUG]       xerces:xercesImpl:jar:2.8.1:compile
+[DEBUG]       commons-io:commons-io:jar:1.2:compile
+[DEBUG]    org.apache.axis2:axis2-metadata:jar:1.3:compile
+[DEBUG]       org.apache.axis2:axis2-jws-api:jar:1.3:compile
+[DEBUG]          org.apache.ant:ant:jar:1.7.0:compile
+[DEBUG]          org.apache.ant:ant-launcher:jar:1.7.0:compile
+[DEBUG]       org.apache.axis2:axis2-jaxws-api:jar:1.3:compile
+[DEBUG]          org.apache.axis2:axis2-saaj-api:jar:1.3:compile
+[DEBUG]             org.apache.geronimo.specs:geronimo-javamail_1.4_spec:jar:1.0-M1:compile
+[DEBUG]             org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.0-M1:compile
+[DEBUG]       org.apache.axis2:axis2-saaj:jar:1.3:compile
+[DEBUG]       com.sun.xml.bind:jaxb-impl:jar:2.0.5:compile
+[DEBUG]          javax.xml.bind:jsr173_api:jar:1.0:compile
+[DEBUG]       com.sun.xml.bind:jaxb-xjc:jar:2.0.5:compile
+[DEBUG]       javax.xml.bind:jaxb-api:jar:2.0:compile
+[DEBUG]    org.springframework:spring-core:jar:3.2.17.RELEASE:compile
+[DEBUG]    org.springframework:spring-context:jar:3.2.17.RELEASE:compile
+[DEBUG]       org.springframework:spring-aop:jar:3.2.17.RELEASE:compile
+[DEBUG]          aopalliance:aopalliance:jar:1.0:compile
+[DEBUG]       org.springframework:spring-beans:jar:3.2.17.RELEASE:compile
+[DEBUG]       org.springframework:spring-expression:jar:3.2.17.RELEASE:compile
+[DEBUG]    org.springframework:spring-web:jar:3.2.17.RELEASE:compile
+[DEBUG]    org.springframework.security:spring-security-crypto:jar:3.2.9.RELEASE:compile
+[DEBUG]    cglib:cglib:jar:2.2.2:compile
+[DEBUG]       asm:asm:jar:3.3.1:compile
+[DEBUG]    com.auth0:java-jwt:jar:3.1.0:compile
+[DEBUG]       com.fasterxml.jackson.core:jackson-databind:jar:2.8.4:compile
+[DEBUG]          com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+[DEBUG]          com.fasterxml.jackson.core:jackson-core:jar:2.8.4:compile
+[DEBUG]       commons-codec:commons-codec:jar:1.10:compile
+[DEBUG]       org.bouncycastle:bcprov-jdk15on:jar:1.55:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.1:runtime
+[DEBUG] Created new class realm plugin>io.apigee.build-tools.enterprise4g:apigee-edge-maven-plugin:1.1.7
+[DEBUG] Importing foreign packages into class realm plugin>io.apigee.build-tools.enterprise4g:apigee-edge-maven-plugin:1.1.7
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>io.apigee.build-tools.enterprise4g:apigee-edge-maven-plugin:1.1.7
+[DEBUG]   Included: io.apigee.build-tools.enterprise4g:apigee-edge-maven-plugin:jar:1.1.7
+[DEBUG]   Included: com.google.http-client:google-http-client:jar:1.10.3-beta
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:1.3.9
+[DEBUG]   Included: org.apache.httpcomponents:httpclient:jar:4.0.3
+[DEBUG]   Included: org.apache.httpcomponents:httpcore:jar:4.0.1
+[DEBUG]   Included: org.codehaus.jackson:jackson-core-asl:jar:1.9.4
+[DEBUG]   Included: xpp3:xpp3:jar:1.1.4c
+[DEBUG]   Included: com.google.protobuf:protobuf-java:jar:2.2.0
+[DEBUG]   Included: org.slf4j:slf4j-log4j12:jar:1.6.6
+[DEBUG]   Included: log4j:log4j:jar:1.2.17
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.1
+[DEBUG]   Included: com.google.guava:guava:jar:12.0
+[DEBUG]   Included: com.google.code.gson:gson:jar:2.2.2
+[DEBUG]   Included: xalan:xalan:jar:2.7.1
+[DEBUG]   Included: xalan:serializer:jar:2.7.1
+[DEBUG]   Included: xml-apis:xml-apis:jar:1.3.04
+[DEBUG]   Included: org.eclipse.jgit:org.eclipse.jgit:jar:3.3.2.201404171909-r
+[DEBUG]   Included: com.jcraft:jsch:jar:0.1.50
+[DEBUG]   Included: com.googlecode.javaewah:JavaEWAH:jar:0.7.9
+[DEBUG]   Included: org.apache.axis2:axis2-kernel:jar:1.3
+[DEBUG]   Included: javax.servlet:servlet-api:jar:2.3
+[DEBUG]   Included: commons-httpclient:commons-httpclient:jar:3.0.1
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: commons-fileupload:commons-fileupload:jar:1.1.1
+[DEBUG]   Included: wsdl4j:wsdl4j:jar:1.6.2
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:2.2
+[DEBUG]   Included: org.codehaus.woodstox:wstx-asl:jar:3.2.1
+[DEBUG]   Included: stax:stax-api:jar:1.0.1
+[DEBUG]   Included: org.apache.ws.commons.schema:XmlSchema:jar:1.3.2
+[DEBUG]   Included: org.apache.neethi:neethi:jar:2.0.2
+[DEBUG]   Included: annogen:annogen:jar:0.1.0
+[DEBUG]   Included: org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.1
+[DEBUG]   Included: logkit:logkit:jar:1.0.1
+[DEBUG]   Included: avalon-framework:avalon-framework:jar:4.1.3
+[DEBUG]   Included: org.apache.ws.commons.axiom:axiom-api:jar:1.2.5
+[DEBUG]   Included: jaxen:jaxen:jar:1.1-beta-9
+[DEBUG]   Included: org.apache.ws.commons.axiom:axiom-impl:jar:1.2.5
+[DEBUG]   Included: org.apache.ws.commons.axiom:axiom-dom:jar:1.2.5
+[DEBUG]   Included: javax.mail:mail:jar:1.4
+[DEBUG]   Included: javax.activation:activation:jar:1.1
+[DEBUG]   Included: xerces:xercesImpl:jar:2.8.1
+[DEBUG]   Included: commons-io:commons-io:jar:1.2
+[DEBUG]   Included: org.apache.axis2:axis2-metadata:jar:1.3
+[DEBUG]   Included: org.apache.axis2:axis2-jws-api:jar:1.3
+[DEBUG]   Included: org.apache.ant:ant:jar:1.7.0
+[DEBUG]   Included: org.apache.ant:ant-launcher:jar:1.7.0
+[DEBUG]   Included: org.apache.axis2:axis2-jaxws-api:jar:1.3
+[DEBUG]   Included: org.apache.axis2:axis2-saaj-api:jar:1.3
+[DEBUG]   Included: org.apache.geronimo.specs:geronimo-javamail_1.4_spec:jar:1.0-M1
+[DEBUG]   Included: org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.0-M1
+[DEBUG]   Included: org.apache.axis2:axis2-saaj:jar:1.3
+[DEBUG]   Included: com.sun.xml.bind:jaxb-impl:jar:2.0.5
+[DEBUG]   Included: javax.xml.bind:jsr173_api:jar:1.0
+[DEBUG]   Included: com.sun.xml.bind:jaxb-xjc:jar:2.0.5
+[DEBUG]   Included: javax.xml.bind:jaxb-api:jar:2.0
+[DEBUG]   Included: org.springframework:spring-core:jar:3.2.17.RELEASE
+[DEBUG]   Included: org.springframework:spring-context:jar:3.2.17.RELEASE
+[DEBUG]   Included: org.springframework:spring-aop:jar:3.2.17.RELEASE
+[DEBUG]   Included: aopalliance:aopalliance:jar:1.0
+[DEBUG]   Included: org.springframework:spring-beans:jar:3.2.17.RELEASE
+[DEBUG]   Included: org.springframework:spring-expression:jar:3.2.17.RELEASE
+[DEBUG]   Included: org.springframework:spring-web:jar:3.2.17.RELEASE
+[DEBUG]   Included: org.springframework.security:spring-security-crypto:jar:3.2.9.RELEASE
+[DEBUG]   Included: cglib:cglib:jar:2.2.2
+[DEBUG]   Included: asm:asm:jar:3.3.1
+[DEBUG]   Included: com.auth0:java-jwt:jar:3.1.0
+[DEBUG]   Included: com.fasterxml.jackson.core:jackson-databind:jar:2.8.4
+[DEBUG]   Included: com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0
+[DEBUG]   Included: com.fasterxml.jackson.core:jackson-core:jar:2.8.4
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.10
+[DEBUG]   Included: org.bouncycastle:bcprov-jdk15on:jar:1.55
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.1
+[DEBUG] Configuring mojo io.apigee.build-tools.enterprise4g:apigee-edge-maven-plugin:1.1.7:configure from plugin realm ClassRealm[plugin>io.apigee.build-tools.enterprise4g:apigee-edge-maven-plugin:1.1.7, parent: sun.misc.Launcher$AppClassLoader@1b6d3586]
+[DEBUG] Configuring mojo 'io.apigee.build-tools.enterprise4g:apigee-edge-maven-plugin:1.1.7:configure' with basic configurator -->
+[DEBUG]   (f) apiVersion = v1
+[DEBUG]   (f) artifactId = ATHelloWorld
+[DEBUG]   (f) authType = oauth
+[DEBUG]   (s) baseDirectory = /mnt/d/Work/apigee-cicd/ConfigProxy
+[DEBUG]   (f) buildDirectory = /mnt/d/Work/apigee-cicd/ConfigProxy/target
+[DEBUG]   (f) deploymentEnv = test
+[DEBUG]   (f) hostURL = https://api.enterprise.apigee.com
+[DEBUG]   (s) id = test
+[DEBUG]   (f) projectName = ATHelloWorld
+[DEBUG]   (f) projectVersion = 1.0
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) tokenURL = https://login.apigee.com/oauth/token
+[DEBUG] -- end configuration --
+[DEBUG] 
+
+=============Now updating the configuration values for the App Bundle================
+
+
+[DEBUG] =============Searching for XML files in the following directory ================
+/mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy/proxies
+[DEBUG] =============Number of files found is================
+1
+[INFO] ============= Reading the config file located at ================
+/mnt/d/Work/apigee-cicd/ConfigProxy/config.json
+[INFO] =============Replacing config tokens for Environment test, for proxy file name default.xml================
+
+[INFO] ============= to apply the following config tokens ================
+{
+  "name": "default.xml",
+  "tokens": [
+    {
+      "xpath": "/ProxyEndpoint/HTTPProxyConnection/VirtualHost",
+      "value": "default"
+    }
+  ]
+}
+[DEBUG] =============Checking for Xpath Expressions /ProxyEndpoint/HTTPProxyConnection/VirtualHost  ================
+
+[DEBUG] =============Updated existing value VHOST to new value default ================
+
+[DEBUG] =============Searching for XML files in the following directory ================
+/mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy/policies
+[DEBUG] =============Number of files found is================
+3
+[DEBUG] =============Searching for XML files in the following directory ================
+/mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy/stepdefinitions
+[DEBUG] =============Error Encountered in Searching files [/mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy/stepdefinitions]================
+java.lang.NullPointerException
+[INFO] =============Replacing config tokens for Environment test, for policy file name ResponseCache.xml================
+
+[INFO] ============= to apply the following config tokens ================
+{
+  "name": "ResponseCache.xml",
+  "tokens": [
+    {
+      "xpath": "/ResponseCache/CacheKey/Prefix",
+      "value": "test"
+    }
+  ]
+}
+[DEBUG] =============Checking for Xpath Expressions /ResponseCache/CacheKey/Prefix  ================
+
+[DEBUG] =============Updated existing value ENV to new value test ================
+
+[DEBUG] =============Searching for XML files in the following directory ================
+/mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy/targets
+[DEBUG] =============Number of files found is================
+1
+[INFO] =============Replacing config tokens for Environment test, for policy file name httpbin.xml================
+
+[INFO] ============= to apply the following config tokens ================
+{
+  "name": "httpbin.xml",
+  "tokens": [
+    {
+      "xpath": "/TargetEndpoint/HTTPTargetConnection/LoadBalancer/Server[@name\u003d\u0027TARGETSERVER\u0027]",
+      "value": "HTTPBin"
+    }
+  ]
+}
+[DEBUG] =============Checking for Xpath Expressions /TargetEndpoint/HTTPTargetConnection/LoadBalancer/Server[@name='TARGETSERVER']  ================
+
+[DEBUG] =============Updated existing value  to new value HTTPBin ================
+
+[DEBUG] =============Searching for XML files in the following directory ================
+/mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy
+[DEBUG] =============Number of files found is================
+1
+[INFO] 
+
+=============Checking for node.js app================
+
+
+[INFO] 
+
+=============Now zipping the App Bundle================
+
+
+[DEBUG] Creating : /mnt/d/Work/apigee-cicd/ConfigProxy/target/ATHelloWorld-1.0.zip
+[DEBUG]  Adding: /mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy/HelloWorld.xml
+[DEBUG]  Adding: /mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy/policies/KVM-GetHttpBinCredentials.xml
+[DEBUG]  Adding: /mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy/policies/ResponseCache.xml
+[DEBUG]  Adding: /mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy/policies/VerifyAPIKey.xml
+[DEBUG]  Adding: /mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy/proxies/default.xml
+[DEBUG]  Adding: /mnt/d/Work/apigee-cicd/ConfigProxy/target/apiproxy/targets/httpbin.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.668 s
+[INFO] Finished at: 2020-01-24T15:00:36+03:00
+[INFO] ------------------------------------------------------------------------

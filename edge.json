@@ -35,7 +35,7 @@
         "test": {
           "targetServers": [
               {
-                "name" : "HTTPBin",
+                "name" : "AT1234_HTTPBin",
                 "host" : "httpbin.org",
                 "isEnabled" : true,
                 "port" : 80
@@ -51,7 +51,7 @@
         ], 
           "caches": [
               {
-                "name": "echocache",
+                "name": "AT1234_echocache",
                 "description": "echo cache",
                 "expirySettings": {
                     "timeoutInSec": {
@@ -75,7 +75,7 @@
           ],
           "kvms":[
               {
-                  "name" : "HTTPBin_Credentials",
+                  "name" : "AT1234_HTTPBin_Credentials",
                   "entry" : [{
                       "name" : "username",
                       "value" : "johndoe"

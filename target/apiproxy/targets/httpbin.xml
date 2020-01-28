@@ -18,7 +18,7 @@
     <HTTPTargetConnection>
         <LoadBalancer>
         <!-- This server name should be present in edgeConfig.json as targetserver -->
-            <Server name="${TARGETSERVER}"/>
+            <Server name="AT1234_HTTPBin"/>
         </LoadBalancer>
         <Path>/</Path>
     </HTTPTargetConnection>

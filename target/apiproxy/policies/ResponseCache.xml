@@ -3,10 +3,10 @@
     <DisplayName>ResponseCache</DisplayName>
     <Properties/>
     <CacheKey>
-        <Prefix>${ENV_NAME}</Prefix>
+        <Prefix>test</Prefix>
         <KeyFragment ref="request.uri" type="string"/>
     </CacheKey>
     <!-- Create a cache in edgeConfig.json at environment level by this name -->
-    <CacheResource>${ECHOCACHE}</CacheResource>
+    <CacheResource>AT1234_echocache</CacheResource>
     <Scope>Exclusive</Scope>
 </ResponseCache>
