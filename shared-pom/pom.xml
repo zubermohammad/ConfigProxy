@@ -55,6 +55,7 @@
                 </executions>
                 <configuration>
                     <executable>replacer.sh</executable>
+                    <skip>${replacements.skip}</skip>
                     <arguments>
                         <argument>${replacements.file}</argument>
                     </arguments>

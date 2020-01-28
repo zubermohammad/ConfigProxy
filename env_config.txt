@@ -1,5 +1,7 @@
-TARGETSERVER=AT1234_HTTPBin envsubst < ./apiproxy/targets/httpbin.xml > file.tmp && mv file.tmp ./target/apiproxy/targets/httpbin.xml
-HTTPBin_Credentials=AT1234_HTTPBin_Credentials envsubst < ./apiproxy/policies/KVM-GetHttpBinCredentials.xml > file.tmp && mv file.tmp ./target/apiproxy/policies/KVM-GetHttpBinCredentials.xml
-ENV_NAME=test ECHOCACHE=AT1234_echocache  envsubst < ./apiproxy/policies/ResponseCache.xml > file.tmp && mv file.tmp ./target/apiproxy/policies/ResponseCache.xml
-
-
+apiproxy/targets/httpbin.xml
+TARGETSERVER=AT1234_HTTPBin
+---
+apiproxy/policies/ResponseCache.xml
+ENV_NAME=test
+ECHOCACHE=AT1234_echocache
+---
