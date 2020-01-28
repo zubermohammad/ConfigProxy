@@ -1,5 +1,5 @@
 # ConfigProxy
-mvn clean install -Denv=test -Dorg=ateebshaik -Dusername=zubermohammad@gmail.com -Dpassword=$password -Ptest
+`mvn clean install -Denv=test -Dorg=organiztion -Dusername=username -Dpassword=$password -Ptest`
 
 # Environment Replacements in any file in apiproxy
 Use a variable reference in your file as ${VARIABLE} 
